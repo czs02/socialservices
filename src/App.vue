@@ -1,17 +1,10 @@
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-  <HomeView msg="Welcome to Your Vue.js App"/>
+  <router-view></router-view>
 </template>
 
 <script>
-// import HelloWorld from './components/views/HelloWorld.vue'
-import HomeView from './views/HomeView.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HomeView
-  }
+  name: 'App'
 }
 </script>
 
